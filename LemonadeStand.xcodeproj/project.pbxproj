@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		267A744F19F4870200AAEFEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A744E19F4870200AAEFEB /* AppDelegate.swift */; };
-		267A745119F4870200AAEFEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A745019F4870200AAEFEB /* ViewController.swift */; };
 		267A745419F4870200AAEFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267A745219F4870200AAEFEB /* Main.storyboard */; };
 		267A745619F4870200AAEFEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267A745519F4870200AAEFEB /* Images.xcassets */; };
 		267A745919F4870200AAEFEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267A745719F4870200AAEFEB /* LaunchScreen.xib */; };
 		267A746519F4870200AAEFEB /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A746419F4870200AAEFEB /* LemonadeStandTests.swift */; };
+		267A747119F4902200AAEFEB /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A747019F4902200AAEFEB /* Store.swift */; };
+		267A747319F4946E00AAEFEB /* Lemonade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A747219F4946E00AAEFEB /* Lemonade.swift */; };
+		267A747519F4972900AAEFEB /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A747419F4972900AAEFEB /* Customer.swift */; };
+		267A747719F49EC900AAEFEB /* CustomerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A747619F49EC900AAEFEB /* CustomerFactory.swift */; };
+		267A747919F4A11C00AAEFEB /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A747819F4A11C00AAEFEB /* Weather.swift */; };
+		26A521AC19F4A57000DA1545 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A521AA19F4A57000DA1545 /* StartViewController.swift */; };
+		26A521AD19F4A57000DA1545 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A521AB19F4A57000DA1545 /* SummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +35,19 @@
 		267A744919F4870200AAEFEB /* LemonadeStand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonadeStand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267A744D19F4870200AAEFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267A744E19F4870200AAEFEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		267A745019F4870200AAEFEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		267A745319F4870200AAEFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		267A745519F4870200AAEFEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		267A745819F4870200AAEFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		267A745E19F4870200AAEFEB /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		267A746319F4870200AAEFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267A746419F4870200AAEFEB /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		267A747019F4902200AAEFEB /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		267A747219F4946E00AAEFEB /* Lemonade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lemonade.swift; sourceTree = "<group>"; };
+		267A747419F4972900AAEFEB /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		267A747619F49EC900AAEFEB /* CustomerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerFactory.swift; sourceTree = "<group>"; };
+		267A747819F4A11C00AAEFEB /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		26A521AA19F4A57000DA1545 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		26A521AB19F4A57000DA1545 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				267A744E19F4870200AAEFEB /* AppDelegate.swift */,
-				267A745019F4870200AAEFEB /* ViewController.swift */,
+				267A747019F4902200AAEFEB /* Store.swift */,
+				267A747819F4A11C00AAEFEB /* Weather.swift */,
+				267A747219F4946E00AAEFEB /* Lemonade.swift */,
+				267A747419F4972900AAEFEB /* Customer.swift */,
+				267A747619F49EC900AAEFEB /* CustomerFactory.swift */,
+				26A521AA19F4A57000DA1545 /* StartViewController.swift */,
+				26A521AB19F4A57000DA1545 /* SummaryViewController.swift */,
 				267A745219F4870200AAEFEB /* Main.storyboard */,
 				267A745519F4870200AAEFEB /* Images.xcassets */,
 				267A745719F4870200AAEFEB /* LaunchScreen.xib */,
@@ -212,8 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267A745119F4870200AAEFEB /* ViewController.swift in Sources */,
+				267A747919F4A11C00AAEFEB /* Weather.swift in Sources */,
+				26A521AC19F4A57000DA1545 /* StartViewController.swift in Sources */,
+				267A747719F49EC900AAEFEB /* CustomerFactory.swift in Sources */,
+				26A521AD19F4A57000DA1545 /* SummaryViewController.swift in Sources */,
 				267A744F19F4870200AAEFEB /* AppDelegate.swift in Sources */,
+				267A747519F4972900AAEFEB /* Customer.swift in Sources */,
+				267A747119F4902200AAEFEB /* Store.swift in Sources */,
+				267A747319F4946E00AAEFEB /* Lemonade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LemonadeStand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LemonadeStand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +431,7 @@
 				267A746A19F4870200AAEFEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		267A746B19F4870200AAEFEB /* Build configuration list for PBXNativeTarget "LemonadeStandTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +440,7 @@
 				267A746D19F4870200AAEFEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
